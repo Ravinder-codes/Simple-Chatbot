@@ -1,0 +1,161 @@
+{"intents":[
+        {
+            "tag": "Greetings",
+            "patterns": [
+                "Hello!",
+                "Hi there!",
+                "Hey!",
+                "How are you?",
+                "What's up?",
+                "Greetings!",
+                "Howdy!"
+            ],
+            "response": [
+                "Hello! How can I assist you today?",
+                "Hi there! What can I help you with?",
+                "Hey! How can I support you?",
+                "I'm here to help! What’s on your mind?",
+                "Greetings! How can I help you today?",
+                "Howdy! What information do you need?"
+            ]
+        },
+        {   
+            "tag": "Available Courses",
+            "patterns": [
+                "Academic courses",
+                "Courses that university offer",
+                "What courses do you offer?",
+                "Can you list the courses available?",
+                "What courses can I take?",
+                "Are there any courses available?",
+                "What classes are offered?"
+            ],
+            "response": [
+                "The university offers the following courses: Introduction to Psychology, Calculus I, Data Structures, and Organic Chemistry.",
+                "You can take these courses: Introduction to Psychology, Calculus I, Data Structures, and Organic Chemistry.",
+                "Available courses include: Introduction to Psychology, Calculus I, Data Structures, and Organic Chemistry."
+            ]
+        },
+        {
+            "tag": "Admission Requirements",
+            "patterns": [
+              "What are the admission requirements?",
+              "Can you tell me about the requirements for admission?",
+              "What do applicants need to apply?"
+            ],
+            "response": [
+              "You need to provide your 12th-grade marks, a completed admission form, and official transcripts to apply.",
+              "Applicants must submit their 12th-grade marks, an admission form that is fully completed, and their transcripts.",
+              "To apply, ensure you include your marks from 12th grade, a filled-out admission form, and your academic transcripts."
+            ]
+        },
+        {
+            "tag": "Campus Facilities",
+            "patterns": [
+              "What are the campus facilities like?",
+              "Can you tell me about the university's facilities?",
+              "What facilities does the campus offer?"
+            ],
+            "response": [
+              "The campus features a state-of-the-art library, equipped with study rooms, computer labs, and a vast collection of resources for student research.",
+              "We have several recreational facilities, including a gym, swimming pool, and sports fields for various activities, promoting a healthy lifestyle.",
+              "The university offers modern lecture halls, equipped with the latest technology, and dedicated spaces for group studies and collaboration.",
+              "In addition to academic facilities, there are dining halls, coffee shops, and relaxation areas to enhance the student experience.",
+              "Our campus includes specialized labs for science and engineering, art studios, and performance spaces to support diverse academic programs."
+            ]
+        },
+        {
+            "tag": "Contact Information",
+            "patterns": [
+              "How can I contact the university?",
+              "What is the admissions office phone number?",
+              "Can you give me the university's email address?",
+              "Where can I find contact details?",
+              "What are the office hours for student services?"
+            ],
+            "response": [
+              "You can contact the university at (123) 456-7890 or email us at info@university.edu.",
+              "The admissions office phone number is (123) 456-7891. Feel free to reach out!",
+              "You can find our contact details on the university's official website under the 'Contact Us' section.",
+              "Student services are available from 9 AM to 5 PM, Monday to Friday. You can reach them at (123) 456-7892.",
+              "For inquiries, you can email admissions@university.edu or call (123) 456-7891."
+            ]
+        },
+        {
+            "tag": "Clubs",
+            "patterns": [
+              "Extra activities",
+              "What clubs are available at the university?",
+              "Can you tell me about student organizations?",
+              "How can I join a club?",
+              "Are there any academic clubs?",
+              "What extracurricular activities can I participate in?"
+            ],
+            "response": [
+              "The university offers a variety of clubs, including the Debate Club, Environmental Club, and the Student Government Association.",
+              "You can join student organizations such as the Arts Club, Tech Society, and Cultural Exchange Club. Check our website for a complete list.",
+              "There are various clubs. To join a club, you can visit the Student Activities office or sign up during the club fair held at the beginning of each semester.",
+              "We have many academic clubs, including the Business Club, Science Society, and Engineering Club, which provide networking and learning opportunities.",
+              "Extracurricular activities include sports teams, cultural clubs, and hobby groups. Visit our clubs page for more information on how to get involved."
+            ]
+        },
+        {
+            "tag": "Companies Visiting",
+            "patterns": [
+              "Which companies come for placements?",
+              "Can you list the companies that recruit here?",
+              "What organizations visit the university for recruitment?",
+              "Are there any big companies coming for campus recruitment?",
+              "Who are the recruiters that visit the campus?"
+            ],
+            "response": [
+              "This year, we have companies like Google, Microsoft, and Amazon coming for placements. Check the placement schedule for dates.",
+              "Major organizations such as Deloitte, Infosys, and Accenture are scheduled to visit for campus recruitment.",
+              "We host a variety of companies, including IBM, Cisco, and Wipro, for recruitment on campus. Stay tuned for more details!",
+              "Our university attracts recruiters from top firms like JP Morgan, Goldman Sachs, and Tata Consultancy Services.",
+              "You can find a complete list of companies visiting for placements on our career services website, along with their scheduled dates."
+            ]
+        },
+        {
+            "tag": "Thanks",
+            "patterns": [
+              "Thank you!",
+              "Thanks for your help!",
+              "I appreciate it!",
+              "Thank you very much!",
+              "Thanks a lot!"
+            ],
+            "response": [
+              "You're welcome! If you have any more questions, feel free to ask.",
+              "Glad I could help! Let me know if there's anything else you need.",
+              "You're welcome! I'm here to assist you anytime.",
+              "No problem! Don't hesitate to reach out if you need more information.",
+              "My pleasure! If you have any other inquiries, just let me know."
+            ]
+        },
+        {
+          "tag": "Bye",
+          "patterns": [
+            "Good day!",
+            "See you later",
+            "Bye",
+            "Good bye",
+            "biee"
+          ],
+          "response": [
+            "Good day! You can type 'quit' to leave the chat",
+            "Bye Buddy! Type 'quit' to leave"
+          ]
+        },
+        {
+          "tag": "Quit",
+          "patterns": [
+            "Quit",
+            "quit"
+          ],
+          "response": [
+            "Thank you for coming!"
+          ]
+        }
+    ]
+}
